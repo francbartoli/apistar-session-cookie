@@ -11,6 +11,34 @@ Cookie based Sessions for Apistar.
 
 # Documentation
 
+##### init_cookie_session
+<details>
+
+`apistar_session_cookie.init_cookie_session(cookie: http.Header, response_headers: http.ResponseHeaders) -> Generator[http.Session, None, None]`
+
+**Description:** Apistar Component, initializes a SessionStore that works with Cookies.
+
+**Arguments:**
+- `cookie` An standard web browser cookie to work with, required, defaults to `apistar.http.Header`.
+- `response_headers` Apistar HTTP Headers, required, defaults to `apistar.http.ResponseHeaders`.
+
+**Keyword Arguments:** None.
+
+**Returns:** `apistar.interfaces.SessionStore`.
+
+**Source Code file:** https://github.com/juancarlospaco/apistar-session-cookie/blob/master/apistar_session_cookie.py
+
+| State              | OS          | Description |
+| ------------------ |:-----------:| -----------:|
+| :white_check_mark: | **Linux**   | Works Ok    |
+| :white_check_mark: | **Os X**    | Works Ok    |
+| :white_check_mark: | **Windows** | Works Ok    |
+
+**Usage Example:** See `example.py`
+
+</details>
+
+
 ##### CookieSessionStore
 <details>
 
@@ -35,34 +63,6 @@ Cookie based Sessions for Apistar.
 | :white_check_mark: | **Windows** | Works Ok    |
 
 **Usage Example:** N/A, should normally be used via `apistar_session_cookie.init_cookie_session()`, not directly.
-
-</details>
-
-
-##### PositiveFloatField
-<details>
-
-`apistar_session_cookie.init_cookie_session(cookie: http.Header, response_headers: http.ResponseHeaders) -> Generator[http.Session, None, None]`
-
-**Description:** Apistar Component, initializes a SessionStore that works with Cookies.
-
-**Arguments:**
-- `cookie` An standard web browser cookie to work with, required, defaults to `apistar.http.Header`.
-- `response_headers` Apistar HTTP Headers, required, defaults to `apistar.http.ResponseHeaders`.
-
-**Keyword Arguments:** None.
-
-**Returns:** `apistar.interfaces.SessionStore`.
-
-**Source Code file:** https://github.com/juancarlospaco/apistar-session-cookie/blob/master/apistar_session_cookie.py
-
-| State              | OS          | Description |
-| ------------------ |:-----------:| -----------:|
-| :white_check_mark: | **Linux**   | Works Ok    |
-| :white_check_mark: | **Os X**    | Works Ok    |
-| :white_check_mark: | **Windows** | Works Ok    |
-
-**Usage Example:** See `example.py`
 
 </details>
 
