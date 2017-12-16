@@ -20,10 +20,10 @@ from werkzeug.http import dump_cookie, parse_cookie
 
 __version__ = "1.0.0"
 __license__ = "GPLv3+ LGPLv3+"
-__author__ = "Vlad Zolotoy"
+__author__ = "Vlad Zolotoy, Juan Carlos"
 __email__ = "juancarlospaco@gmail.com"
 __maintainer__ = "Juan Carlos"
-__url__ = "https://github.com/juancarlospaco/peewee-extra-fields"
+__url__ = "https://github.com/juancarlospaco/apistar-session-cookie"
 __all__ = ('CookieSessionStore', 'init_cookie_session')
 
 
