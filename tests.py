@@ -70,3 +70,8 @@ class TestCookieSessions(unittest.TestCase):
         cookie = http.Header(modified_session)
         with init_cookie_session(cookie, self.response_headers) as session:
             self.assertEqual(session.data, {})
+
+
+if __name__.__contains__("__main__"):
+    print(__doc__)
+    unittest.main()
