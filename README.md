@@ -16,7 +16,7 @@ Cookie based Sessions for Apistar.
 
 `apistar_session_cookie.init_cookie_session(cookie: http.Header, response_headers: http.ResponseHeaders) -> Generator[http.Session, None, None]`
 
-**Description:** Apistar Component, initializes a SessionStore that works with Cookies.
+**Description:** Apistar Component, initializes a SessionStore that works with Cookies
 (This Code was Donated by the original Author Vlad Zolotoy to Juan Carlos the maintainer and packager).
 
 **Arguments:**
