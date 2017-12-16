@@ -77,8 +77,7 @@ setup(
     version=find_this("version"),
 
     description="""Cookie based Sessions for Apistar.""",
-    long_description="""Cookie based persistent Sessions Component for Apistar.
-    This Component was Donated by the original Author Vlad Zolotoy to Juan Carlos the maintainer and packager.""",
+    long_description="""Cookie based persistent Sessions Component for Apistar.""",
 
     url=find_this("url"),
     download_url=find_this("url"),
