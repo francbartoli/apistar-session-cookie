@@ -6,7 +6,7 @@ python:
 
 
 install:
-  - pip install apistar --quiet
+  - pip install apistar cryptography --quiet
   - pip install .
 
 
