@@ -73,7 +73,7 @@ print("Starting build of setuptools.setup().")
 
 setup(
 
-    name="peewee_extra_fields",
+    name="apistar_session_cookie",
     version=find_this("version"),
 
     description="""Cookie based Sessions for Apistar.""",
@@ -93,13 +93,13 @@ setup(
 
     tests_require=['isort', 'prospector', 'pre-commit', 'pre-commit-hooks'],
     python_requires='>=3.6',
-    install_requires=["apistar"],
-    setup_requires=["apistar"],
-    requires=["apistar"],
+    install_requires=["apistar", "cryptography"],
+    setup_requires=["apistar", "cryptography"],
+    requires=["apistar", "cryptography"],
 
     py_modules=["apistar_session_cookie"],
 
-    keywords="apistar cookie session minimalism python3".split(),
+    keywords="apistar cookie session minimalism python3",
 
     classifiers=[
 
