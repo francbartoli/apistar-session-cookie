@@ -69,10 +69,14 @@ Cookie based Sessions for [Apistar](https://github.com/encode/apistar).
 </details>
 
 
+#### Example
+
 - [Check an actual working Example copied from official docs.](example/app.py)
 
 Run it executing on the terminal command line: `apistar run`.
+
 [http://127.0.0.1:8080/](http://127.0.0.1:8080/) Writes and Reads Session data.
+
 [http://127.0.0.1:8080/logout/](http://127.0.0.1:8080/logout/) Deletes Session data.
 
 
