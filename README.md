@@ -1,6 +1,6 @@
 # apistar-session-cookie
 
-Cookie based Sessions for [Apistar](https://github.com/encode/apistar).
+Cookie based Sessions for [Apistar](https://github.com/encode/apistar). [![Build Status](https://travis-ci.org/juancarlospaco/apistar-session-cookie.svg?branch=master)](https://travis-ci.org/juancarlospaco/apistar-session-cookie)
 
 ![screenshot](https://source.unsplash.com/V4MBq8kue3U/800x400 "Photo by https://unsplash.com/@brookelark")
 
