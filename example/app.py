@@ -5,14 +5,14 @@
 """Minimum-possible self-contained example of apistar_session_cookie."""
 
 
-from apistar import Route
-from apistar.frameworks.wsgi import WSGIApp as App
-from apistar import http
-from getpass import getuser
 from datetime import datetime
-from apistar_session_cookie import init_cookie_session
-from apistar import Component
+from getpass import getuser
 from secrets import token_urlsafe
+
+from apistar import Component, Route, http
+from apistar.frameworks.wsgi import WSGIApp as App
+
+from apistar_session_cookie import init_cookie_session
 
 
 def login(username: str, session: http.Session) -> dict:
@@ -30,7 +30,7 @@ def logout(session: http.Session) -> dict:
 
 
 routes = (
-    Route('/',  'GET', login),         # Writes and Reads Session Data.
+    Route('/', 'GET', login),          # Writes and Reads Session Data.
     Route('/logout', 'GET', logout),   # Deletes Session Data.
 )
 
